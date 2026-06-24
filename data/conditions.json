@@ -1,0 +1,110 @@
+[
+  {
+    "id": "raised-ground",
+    "label": "Raised ground",
+    "category": "ground",
+    "description": "Volume lifted above the ground plane on a plinth, podium, or piloti, creating a defined threshold at the point of ascent.",
+    "detail": "The raised condition separates the building from the ground as datum, requiring the design of an entry sequence — stair, ramp, or lift — that mediates the transition. The space beneath the raised volume is activated outdoor territory.",
+    "tags": ["ground", "elevation", "threshold", "podium"],
+    "related_operatives": ["lift"]
+  },
+  {
+    "id": "embedded-ground",
+    "label": "Embedded ground",
+    "category": "ground",
+    "description": "Volume partially or wholly sunken into the ground plane, framing entry as a descent and receiving primary light from above.",
+    "detail": "The embedded condition inverts the usual building logic — the ground is the primary enclosing element. Entry sequences are necessarily deliberate: the descent marks a spatial transition. Light comes from above, from courts, or from slots cut at grade.",
+    "tags": ["ground", "excavation", "descent", "threshold"],
+    "related_operatives": ["embed", "lodge"]
+  },
+  {
+    "id": "terraced-ground",
+    "label": "Terraced ground",
+    "category": "ground",
+    "description": "Volume steps with the topography through a series of level changes, integrating the section of the building with the section of the site.",
+    "detail": "Terracing refuses the idea of a single datum — the building meets the ground at multiple levels. Each terrace creates a distinct zone with its own relationship to landscape, light, and access. The section is the primary design instrument.",
+    "tags": ["ground", "topography", "section", "levels"],
+    "related_operatives": ["grade", "shift"]
+  },
+  {
+    "id": "flat-datum",
+    "label": "Flat datum",
+    "category": "ground",
+    "description": "Volume meets the ground on a level plane with a precise, unambiguous threshold between interior and exterior.",
+    "detail": "The flat datum condition is deceptively simple — its clarity comes from the precision of the threshold. The quality of the meeting between slab edge and ground surface is the entire ground strategy. Often the most disciplined choice on a flat site.",
+    "tags": ["ground", "datum", "horizontal", "threshold"],
+    "related_operatives": []
+  },
+  {
+    "id": "vertical-stair",
+    "label": "Vertical stair",
+    "category": "connection",
+    "description": "Primary vertical circulation through an exposed stair element that reads as a structural and spatial event.",
+    "detail": "The stair as spatial event — not concealed or minimised, but expressed as architecture. Its position in the plan establishes the vertical logic of the building. The relationship between the stair and the volumes it connects is a primary organisational decision.",
+    "tags": ["connection", "vertical", "circulation", "stair"],
+    "related_operatives": ["lift", "split"]
+  },
+  {
+    "id": "ramp-connection",
+    "label": "Ramp",
+    "category": "connection",
+    "description": "Gradual level change through a continuous sloped surface, permitting accessible and ambulatory connection between floors or volumes.",
+    "detail": "The ramp introduces a continuous spatial experience across levels — there is no moment of transition, only gradient. It occupies more plan area than a stair but creates spatial richness in return. The section through a ramped building is fundamentally different from a stacked one.",
+    "tags": ["connection", "vertical", "continuous", "accessible"],
+    "related_operatives": ["grade", "lift"]
+  },
+  {
+    "id": "bridge-link",
+    "label": "Bridge",
+    "category": "connection",
+    "description": "Elevated horizontal connection between two distinct volumes, creating a covered passage above the ground plane.",
+    "detail": "The bridge acknowledges the gap between volumes as territory — rather than closing it, it spans it. The structure of the bridge, its transparency, and its entry points determine whether it reads as passage, room, or threshold. The ground beneath the bridge remains active.",
+    "tags": ["connection", "horizontal", "elevated", "span"],
+    "related_operatives": ["split", "shift", "lift"]
+  },
+  {
+    "id": "corridor-spine",
+    "label": "Corridor spine",
+    "category": "connection",
+    "description": "Linear horizontal circulation element that organises programme along its length and mediates between flanking volumes.",
+    "detail": "The spine is both circulation and ordering device — it establishes the primary axis of the building and distributes programme to either side. Its width, height, and relationship to light determine whether it reads as a corridor, a gallery, or a street.",
+    "tags": ["connection", "horizontal", "linear", "organisation"],
+    "related_operatives": ["extrude", "branch"]
+  },
+  {
+    "id": "slot-aperture",
+    "label": "Slot",
+    "category": "aperture",
+    "description": "Narrow linear opening that admits directional light and frames a specific view.",
+    "detail": "The slot is the most controlled aperture — it selects precisely what enters and what does not. Light from a slot is directional and raking, producing strong shadow patterns on interior surfaces. The view it frames is specific and curated.",
+    "tags": ["aperture", "light", "linear", "framing"],
+    "related_operatives": ["shear", "split", "notch"]
+  },
+  {
+    "id": "corner-aperture",
+    "label": "Corner opening",
+    "category": "aperture",
+    "description": "Opening positioned at the junction of two surfaces, dissolving the edge and creating spatial ambiguity at the boundary.",
+    "detail": "Removing the corner removes the most structurally and spatially decisive element of a volume. The result is an interior that leaks into the exterior at its edges rather than its face — a qualitatively different spatial relationship to the outside.",
+    "tags": ["aperture", "corner", "edge", "dissolution"],
+    "related_operatives": ["notch", "carve"]
+  },
+  {
+    "id": "roof-aperture",
+    "label": "Roof opening",
+    "category": "aperture",
+    "description": "Opening in the roof or ceiling plane, introducing zenithal light from directly above.",
+    "detail": "Light from above is directional in a fundamentally different way from light from the side — it falls vertically, creates pools rather than washes, and produces a quality of interior illumination associated with sacred and institutional architecture. The roof aperture privileges the floor as the illuminated surface.",
+    "tags": ["aperture", "zenithal", "roof", "pool"],
+    "related_operatives": ["extract", "puncture", "carve"]
+  },
+  {
+    "id": "full-height-aperture",
+    "label": "Full-height opening",
+    "category": "aperture",
+    "description": "Opening that spans the full height of a facade, eliminating the threshold between interior floor and exterior ground.",
+    "detail": "The full-height aperture collapses the distinction between inside and outside — the floor continues uninterrupted into the exterior. Spatial containment is achieved through horizontal extent rather than enclosure. The threshold is only light, air, and the plane of the glazing.",
+    "tags": ["aperture", "full-height", "transparency", "threshold"],
+    "related_operatives": ["lift", "expand"]
+  }
+]

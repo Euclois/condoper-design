@@ -1,0 +1,27 @@
+{
+  "spatial_effects": [
+    "compression",
+    "expansion",
+    "hierarchy",
+    "ambiguity",
+    "tension"
+  ],
+  "tectonic_spectrum": [
+    "stereotomic",
+    "neutral",
+    "tectonic"
+  ],
+  "arb_gc": [
+    "GC1",
+    "GC2",
+    "GC3",
+    "GC4",
+    "GC5",
+    "GC6",
+    "GC7",
+    "GC8",
+    "GC9",
+    "GC10",
+    "GC11"
+  ]
+}
