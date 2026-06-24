@@ -4,7 +4,7 @@
  * to SQLite via sql.js WASM, only this file changes.
  */
 
-const DATA_PATH = '/data/';
+const DATA_PATH = '/json/';
 
 const _cache = {};
 
